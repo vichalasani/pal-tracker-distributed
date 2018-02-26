@@ -107,7 +107,7 @@ jobs:
   - put: cf
     params:
       manifest: pal-tracker-distributed/manifest-backlog.yml
-      path: backlog-artifacts-distributed/backlog-server*.jar
+      path: backlog-artifacts/backlog-server*.jar
       current_app_name: tracker-backlog
 
 - name: deploy-registration
